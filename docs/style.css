@@ -29,7 +29,7 @@ body {
 }
 
 #days {
-  font-size: 50px;
+  font-size: 5rem;
   color: #FFF;
   text-align: center;
   letter-spacing: 3px;
@@ -71,7 +71,7 @@ body {
 /* Custom styles for the candy cane loading bar */
 .loading-bar {
   position: relative;
-  height: 1rem;
+  height: 2rem;
   width: 100%;
   background-color: #F24236;
   background-color: rgba(0, 0, 0, 0.5);
@@ -93,9 +93,9 @@ body {
   background: repeating-linear-gradient(
     -45deg,
     #fff,
-    #fff 0.5rem,
-    #F24236 0.5rem,
-    #F24236 1rem
+    #fff 1rem,
+    #F24236 1rem,
+    #F24236 2rem
   );
   border-radius: 1rem;
   background-size: 200% 100%;
