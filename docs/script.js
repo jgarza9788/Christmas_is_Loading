@@ -26,7 +26,7 @@ CC.style.width = `${((12.0 - daysToChristmas)/12.0)*100.0}%`
 const body = document.getElementsByTagName('body')[0];
 console.log(body.clientWidth);
 
-snowDrop(200, randomInt(0, 1280));
+snowDrop(200, randomInt(0, body.clientWidth));
 snow(200, 150);
 
 function snow(num, speed) {
