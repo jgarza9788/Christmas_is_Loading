@@ -17,9 +17,9 @@ $('#days').text(daysToChristmas+" days to Christmas!");
 
 const CC = document.getElementsByClassName("candy-cane")[0]
 
-CC.style.width = `${((12.0 - daysToChristmas)/12.0)*100.0}%`
+CC.style.width = `${((13.0 - daysToChristmas)/12.0)*100.0}%`
 
-// CC.style.width = `${((12.0 - 1.0)/12.0)*100.0}%`
+// CC.style.width = `${((13.0 - 12.0)/12.0)*100.0}%`
 // CC.style.width = `50.0%`
 
 //make snow
