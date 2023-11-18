@@ -47,7 +47,7 @@ function snowDrop(num, position) {
     $('body').append(drop);
     $('#drop_' + num).css('left', position);
     num--;
-    snowDrop(num, randomInt(60, body.clientWidth));
+    snowDrop(num, randomInt(0, body.clientWidth));
   }
 };
 
