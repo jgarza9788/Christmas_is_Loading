@@ -116,7 +116,9 @@ body {
 /*** Mouse Thingie ***/
 :root {
   --glow-rgb: 255 255 255;
+  --glow-end-rgb: 0 204 255;
 }
+
 
 .glow-point {
   position: absolute;
@@ -133,11 +135,13 @@ body {
   0% {
     scale: 1.0;
     opacity: 0.5;
+    /* box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-rgb)); */
   }
   
   100% {
-    scale: 2.0;
+    scale: 5.0;
     opacity: 0.0;
+    box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-end-rgb));
   }
 }
 
@@ -154,7 +158,7 @@ body {
 @keyframes fall-0 {
   0% {
     transform: translate(0px, 0px) rotateX(45deg) rotateY(30deg) rotateZ(0deg) scale(0.25);
-    opacity: 0;
+    opacity: 1;
   }
   
   5% {
@@ -171,7 +175,7 @@ body {
 @keyframes fall-1 {
   0% {
     transform: translate(0px, 0px) rotateX(45deg) rotateY(30deg) rotateZ(0deg) scale(0.25);
-    opacity: 0;
+    opacity: 1;
   }
   
   5% {
@@ -188,7 +192,7 @@ body {
 @keyframes fall-2 {
   0% {
     transform: translate(0px, 0px) rotateX(-20deg) rotateY(10deg) scale(0.25);
-    opacity: 0;
+    opacity: 1;
   }
   
   10% {
@@ -205,7 +209,7 @@ body {
 @keyframes fall-3 {
   0% {
     transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
-    opacity: 0;
+    opacity: 1;
   }
   
   15% {
@@ -222,7 +226,7 @@ body {
 @keyframes fall-4 {
   0% {
     transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
-    opacity: 0;
+    opacity: 1;
   }
   
   15% {

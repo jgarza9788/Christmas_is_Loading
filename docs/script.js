@@ -59,7 +59,7 @@ function randomInt(min, max) {
 
 // ***mouse thingie***
 // this is too much and will make the other snow glitch
-///*
+/*
 
 let start = new Date().getTime();
 
@@ -196,4 +196,4 @@ window.onpointermove = e => {
 }
 
 document.body.onmouseleave = () => updateLastMousePosition(originPosition);
-//*/
+*/
